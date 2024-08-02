@@ -1,29 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Phukrit Kittinontana - Resume</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <a href="./index.html"><img class="logo-main" src="logo.png" alt="logo"></a>
+            <a href="./index.html"><img class="logo-main" src="./images/logo.png" alt="Phukrit Kittinontana's Logo"></a>
         </div>
-
-        <span id="menu-btn"></span>
-        <nav>
-            <ul id="mainmenu" class="no-separator">
-                <li><a class="active" href="#top">Home<span></span></a></li>
-                <li><a href="#section-about" class="">About<span></span></a></li>
-                <li><a href="#section-portfolio" class="">Portfolio<span></span></a></li>
-                <li><a href="#section-experiences">Experiences<span></span></a></li>
-                <li><a href="#section-contact">Contact Us<span></span></a></li>
+        <nav id="mainmenu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#section-about">About</a></li>
+                <li><a href="#section-goal">My Goal</a></li>
+                <li><a href="#section-experiences">Experiences</a></li>
+                <li><a href="#section-gallery">Gallery</a></li>
             </ul>
         </nav>
     </header>
@@ -32,101 +29,91 @@
         <section class="hero" id="top">
             <div class="hero-image"></div>
             <div class="hero-text">
-                <h5>Introduction</h5>
-                <p>
-                    My name is Phukrit Kittinontana
-                </p>
-                <p>
-                    I am a <span class="typing-text">Developer</span>.
-                </p>
+                <h1>Introduction</h1>
+                <p>My name is Phukrit Kittinontana</p>
+                <p>I am a <span class="typing-text">Developer</span>.</p>
             </div>
-            <a alt="scroll down to portfolio" title="scroll down to portfolio" href="#section-portfolio"
-                class="hero-btn">
-                See my Portfolio
-            </a>
         </section>
+
         <section class="about" id="section-about">
-            <h5>About Me</h5>
-            <h2>Welcome To My Site</h2>
+            <h2>About Me</h2>
+            <article>
+                <p><strong>Name:</strong>Mr.Phukrit Kittinontana</p>
+                <p><strong>Nickname:</strong>Phu</p>
+                <p><strong>Age:</strong>18</p>
+                <p><strong>Gender:</strong>Male</p>
+                <p><strong>Occupation:</strong>Student</p>
+                <p><strong>Nationality:</strong>Thai</p>
+                <p><strong>Religion:</strong>Buddhist</p>
+                <p><a href="tel:0979216240"><strong>Phone:</strong> 097-921-6240</a></p>
+                <p><a href="mailto:phukrit_kittinontana@cmu.ac.th"><strong>Email:</strong>
+                        phukrit_kittinontana@cmu.ac.th</a></p>
+                <address><span><strong>Address:</strong></span>
+                    ไพพนา แมนชั่น 99/1-2 ถ.สุเทพ ห้อง 611-1 ถ.สุเทพ ต.สุเทพ อ.เมืองเชียงใหม่ จ.เชียงใหม่ 50200
+                </address>
 
-            <div class="skill-container">
-                <div class="col-md-4">
-                    <div class="skill-bar style-2">
-                        <h5>Design</h5>
-                        <div class="de-progress">
-                            <div class="value">80%</div>
-                            <div class="progress-bar" data-value="80%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skill-bar style-2">
-                        <h5>Branding</h5>
-                        <div class="de-progress">
-                            <div class="value">70%</div>
-                            <div class="progress-bar" data-value="70%">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-md-4">
-                    <div class="skill-bar style-2">
-                        <h5>Marketing</h5>
-                        <div class="de-progress">
-                            <div class="value">70%</div>
-                            <div class="progress-bar" data-value="70%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skill-bar style-2">
-                        <h5>Development</h5>
-                        <div class="de-progress">
-                            <div class="value">90%</div>
-                            <div class="progress-bar" data-value="90%">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-md-4">
-                    <div class="skill-bar style-2">
-                        <h5>Photography</h5>
-                        <div class="de-progress">
-                            <div class="value">90%</div>
-                            <div class="progress-bar" data-value="90%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skill-bar style-2">
-                        <h5>SEO</h5>
-                        <div class="de-progress">
-                            <div class="value">75%</div>
-                            <div class="progress-bar" data-value="75%">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+            </article>
         </section>
-        <section class="portfolio" id="section-portfolio">
+
+        <section class="goal" id="section-goal">
+            <h2>My Goal</h2>
+            <article class="card">
+                <ol>
+                    <li><strong>Junior Developer:</strong>To become a skilled and efficient web developer with expertise
+                        in HTML, CSS, JavaScript, and React, and to contribute my coding skills to help build
+                        high-quality software solutions that meet business requirements.
+                    </li>
+                    <li><strong>Mid-Level Developer:</strong>To leverage my experience as a full-stack developer to
+                        design, develop, and deploy scalable, reliable, and us user-friendly applications using Java,
+                        Spring Boot, and PostgreSQL, with a focus on delivering high-performance software solutions that
+                        exceed customer expectations</li>
+                    <li>
+                        <strong>Senior Developer/Technical Lead</strong>
+                        To utilize my expertise in software development and technical leadership to guide
+                        cross-functional teams in designing, developing, and implementing complex software systems using
+                        cutting-edge technologies such as cloud computing, containerization (Docker), and DevOps
+                        practices (Jenkins, GitLab CI/CD).
+                    </li>
+                    <li><strong>Cloud Engineer:</strong>
+                        To work with clients to design, develop, and deploy secure, scalable, and efficient cloud-based
+                        solutions on Amazon Web Services (AWS) or Microsoft Azure using programming languages such as
+                        Python, Go, or Node.js, focusing on optimizing resource utilization and cost savings.
+                    </li>
+                    <li><strong>Mobile App Developer:</strong>
+                        To create innovative mobile applications for Android and iOS platforms utilizing frameworks like
+                        React Native, Flutter, or native development with Java/Kotlin and Swift, focusing on delivering
+                        engaging user
+                        experiences that meet the evolving needs of a rapidly changing market.
+                    </li>
+                </ol>
+            </article>
         </section>
+
         <section class="experiences" id="section-experiences">
+            <h2>Experiences</h2>
+            <article>
+                <ul>
+                    <li>แข่งขันโครงงานวิทยาศาสตร์ สาขาวิทยาศาสตร์ประยุกต์ ได้เหรียญเงิน</li>
+                    <li>เข้ารอบคัดเลือกโครงงาน Ai Inovator Project 2023 40 คน จาก 400 คน</li>
+                    <li>ได้รางวัลชนะเลิศการแข่งขัน Ai Generative ราชภัฎ พิษณุโลก</li>
+                </ul>
+            </article>
         </section>
-        <section class="contact" id="section-contact">
+
+        <section class="gallery" id="section-gallery">
+            <p><h2>My Gallery</h2></p>
+            <img src="./images/AiIno.jpg" alt="">
+            <img src="./images/AiIno1.jpg" alt="">
+            <img src="./images/AiIno2.jpg" alt="">
+            <img src="./images/AiIno3.jpg" alt="">
+            <img src="./images/hero-image.jpg" alt="">
+            <img src="./images/sci.jpg" alt="">
         </section>
     </main>
 
     <footer>
-        © Copyright 2024 - Profession by Phurkit
+        <p>&copy; 2024 Profession by Phukrit. All rights reserved.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 
 </html>
